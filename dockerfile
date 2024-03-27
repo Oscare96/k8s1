@@ -10,4 +10,4 @@ RUN unzip photogenic.zip && \
     rm -rf photogenic photogenic.zip
 
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 22
